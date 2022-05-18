@@ -1,0 +1,22 @@
+{
+    "env":
+    {
+        "retries": 10,
+        "chromeWebSecurity": false,
+        "url": "https://hamrobazaar.com",
+        "reporter":"cypress-multi-reporters",
+        "integrationFolder": "cypress/integration/test",
+        "reporterOptions":{
+           "reporterEnabled":"mochawesome",
+           "mochawesomeReporterOptions":{
+              "reportDir":"cypress/reports/mocha",
+              "quite":true,
+              "overwrite":true,
+              "html":true,
+              "json":true
+           }
+        }
+    }
+}
+
+
